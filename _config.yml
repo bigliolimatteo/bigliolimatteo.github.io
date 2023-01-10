@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-version: 1.0
-title: Matteo Biglioli
-email: bigliolimatteo@gmail.com
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey, my name is Matteo but you can call me Teo!
-  I am a Data Engineer based in Milan, Italy.
-  I am in love with problem-solving (w/ and w/out code) and I am currently down the rabbit hole of GIS.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  bigliolimatteo
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-remote_theme: jekyll-theme-lanyon
+theme: minima
 plugins:
   - jekyll-feed
 
